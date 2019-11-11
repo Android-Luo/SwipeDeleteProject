@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.swipedeleteproject.SwipeView
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <TextView
+                android:id="@+id/sportName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="26sp"
+                android:text="运动名称"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@android:color/holo_orange_dark"
+            android:layout_width="200dp"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/sportStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="26sp"
+                android:text="运动形式"/>
+        </LinearLayout>
+
+    </com.example.swipedeleteproject.SwipeView>
+</LinearLayout>
